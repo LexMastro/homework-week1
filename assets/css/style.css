@@ -1,0 +1,233 @@
+* { /* Universal css */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+body { /* set background of landing to hex colour & max height 100% */
+    background-color: #d9dcd6;
+    max-width: 100%;
+}
+
+#page-container { /* Set page to fit contents */
+    position: relative; /* place container relative to its current position without changing the layout around it */
+    min-height: 100vh; /* Creates vertical scroll bar */
+    max-width: fit-content; /* Container stops after content */
+  }
+  
+ 
+
+.header { 
+    padding: 20px; /* Adds a 20px border to this element */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; 
+    background-color: #2a607c; /* Background color of header section */
+    color: #ffffff; /* Set text color to white */
+}
+
+.header h1 { /* Heading text */
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo { 
+    color: #d9dcd6; /* Set heading text color to white */
+}
+
+.header section {
+    padding-top: 15px; /* adds space above contents*/
+    margin-right: 20px; /* adds space on right side of contents*/
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 20px; 
+    position: relative;
+    justify-content:space-between;
+    align-items:center;  
+}
+
+.header nav ul {
+    list-style-type: none; /* No bullet points */
+    float: right; /* float links to right side of nav bar */
+    padding-top: 20px; 
+    padding-right: 20px;
+    
+}
+
+.header nav ul li {
+    display: inline; /* display links inline with eachother */
+    margin-left: 25px; 
+    position: relative; /*  place nav links relative to its current position without changing the layout around it */
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff; /* Set links text colour to white */
+    text-decoration: none; /* No underline for links */
+    margin-bottom: 100px;
+   
+}
+
+
+.side-bar {
+    text-align: center; /* Set all text in centre of aside section */
+    font-size: 16px;
+    padding-bottom: 13px;
+
+}
+
+.hero {
+    height: 800px; /* Set height of contents to 800 px; */
+    width: 100%; /* Set contents to width of page */
+    margin-bottom: 25px; /* Space below section */
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover; /*  the background image will always fit the whole secion */
+}
+
+.float-left { 
+    float: left;  /*  Image is positioned on left side on section */
+    margin-right: 25px;
+}
+
+.float-right { /*  Image is positioned on right side on section */
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%; /*  Content is only 75% of page */
+    display: inline-block;  /* display content as an inline-level block container. */
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    float: right; /* Set section to right side of page */
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;  /* space below text section */
+    color: #ffffff; /* set text colour to white */
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px; /* space below text section */
+    text-align: center; /* Set text in centre of section */
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block; /* display image to set at max width */
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto; /* browser to define margin */
+    max-width: 150px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px; /* Set height of section to 300px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.search-engine-optimization img {
+    max-height: 200px; /* Set height to max of 200px; */
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    width: 100%; /* Set width of footer to 100% of page */
+    position: relative; /* place footer relative to its current position without changing the layout around it */
+    bottom: 0; /* Element will position itself from the bottom of the first positioned ancestor */
+    height: fit-content; /* height of content is only as high as content */
+    background-color: #0072bb;
+    color: #ffffff;
+    text-align: left; /* Align text to left side of footer */
+}
+
+footer h2 {
+    font-size: 18px;
+}
+
+.footer-p { /* Set paragraph contents to 12px; */
+    font-size: 12px;
+}
