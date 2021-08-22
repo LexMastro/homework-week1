@@ -11,7 +11,10 @@
 
 
 ## Installation
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1. Create a repository on Git Hub & clone to your local drive
+2. Use the git add, git commit, and git push commands to save and push your code to your GitHub repository.
+3. Open the project on your local file in Visual code to make changes 
+4. 
 
 ## Usage
 Provide instructions and examples for use. Include screenshots as needed.
