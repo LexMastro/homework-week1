@@ -1,7 +1,7 @@
 # <HOMEWORK-WEEK1>
 
 ## Description
-* The project is a landing page of an digital marketing website - An easy to read & follow, with accessability.
+* The project is a landing page of a digital marketing website - An easy to read & follow, with accessability.
 
 * The project needed to be visually appealing, while functioning correctly.
 
@@ -11,18 +11,16 @@
 
 
 ## Installation
-1. Create a repository on Git Hub & clone to your local drive
-2. Use the git add, git commit, and git push commands to save and push your code to your GitHub repository.
-3. Open the project on your local file in Visual code to make changes to the html/css.
-4. Push you updaed file to your repository on Github by using Git add, Git commit & Git push
+1. Clone the repository 
+```bash
+git clone git@github.com:LexMastro/homework-week1.git
+```
+2. Open `index.html` in web browser 
  
 
-## Usage
+## Examples
+![Image of website](assets/images/HoriseonSite.png)
 
-
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+## License 
+This project is licensed under the [MIT License](LICENSE)
 
