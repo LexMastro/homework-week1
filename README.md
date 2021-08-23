@@ -1,13 +1,11 @@
 # <HOMEWORK-WEEK1>
 
 ## Description
-* The project is a landing page of a digital marketing website - An easy to read & follow, with accessability.
+* The project was built as a web page for a digital marketing company to show their deliverables of SEO, online management & social marketing.
 
-* The project needed to be visually appealing, while functioning correctly.
+* The project needed to be visually appealing, while functioning correctly and have accessibility functions. 
 
-* The project was built as a funtioning landing page for a digital marketing company to show their deliverable of SEO, online management & social marketing.
-
-* The current html & css needed a clean up of the structure & accessibilty of the webpage. Adding comments & applying missing elements/tags. Also making is more visually appealing.
+* The html & css needed a clean-up, added comments & applying missing elements/tags. of the structure to make it more visually appealing & the accessibility of the webpage needed to be added. 
 
 
 ## Installation
