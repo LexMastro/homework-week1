@@ -144,22 +144,13 @@ a {
 }
 
 
-footer {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
-    width: 100%; /* Set width of footer to 100% of page */
-    position: relative; /* place footer relative to its current position without changing the layout around it */
-    bottom: 0; /* Element will position itself from the bottom of the first positioned ancestor */
-    height: fit-content; /* height of content is only as high as content */
-    background-color: #0072bb;
-    color: #ffffff;
-    text-align: left; /* Align text to left side of footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-footer h2 {
-    font-size: 18px;
-}
-
-.footer-p { /* Set paragraph contents to 12px; */
-    font-size: 12px;
+.footer h2 {
+    font-size: 20px;
 }
